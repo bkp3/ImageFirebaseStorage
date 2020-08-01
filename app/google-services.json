@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "780746618526",
+    "firebase_url": "https://imagefirebasestorage-d72f8.firebaseio.com",
+    "project_id": "imagefirebasestorage-d72f8",
+    "storage_bucket": "imagefirebasestorage-d72f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780746618526:android:6c85bf910eaf43b1ab6d8f",
+        "android_client_info": {
+          "package_name": "bkp.com.imagefirebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780746618526-dlqhem0tl7t5cdpomf6278qfk3jhrcvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFUI0JQYl6giwH0OHkcb_kKLnhcIqkze0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780746618526-dlqhem0tl7t5cdpomf6278qfk3jhrcvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
