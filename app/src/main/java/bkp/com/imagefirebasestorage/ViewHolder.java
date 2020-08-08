@@ -33,8 +33,16 @@ class ViewHolder extends RecyclerView.ViewHolder {
 
         Animation animation = AnimationUtils.loadAnimation(context,android.R.anim.slide_in_left);
         itemView.startAnimation(animation);
+    }
 
+    private ViewHolder.ClickListener mClickListener;
 
+    public interface ClickListener{
+        void onItemClick(View view, int position);
+        void onItemLongClick(View view, int position);
+    }
 
+    public void setOnClickListener(ViewHolder.ClickListener clickListener){
+        mClickListener = clickListener;
     }
 }
